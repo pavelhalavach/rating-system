@@ -17,12 +17,10 @@ import java.util.List;
 public class RegistrationController {
     private final UserService userService;
     private final GameService gameService;
-    private final AesEncryptionUtil aesEncryptionUtil;
 
-    public RegistrationController(UserService userService, GameService gameService, AesEncryptionUtil aesEncryptionUtil) {
+    public RegistrationController(UserService userService, GameService gameService) {
         this.userService = userService;
         this.gameService = gameService;
-        this.aesEncryptionUtil = aesEncryptionUtil;
     }
 
     @GetMapping("/registration/seller")
