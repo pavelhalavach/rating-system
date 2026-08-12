@@ -16,7 +16,7 @@ Implemented functionality
 Technologies
 
 - Java
-- Spring Boot (likely — check project files)
+- Spring Boot
 - Redis (for email confirmation tokens)
 - SMTP for email delivery
 
@@ -78,14 +78,3 @@ Development notes
 - Email delivery requires valid SMTP settings; for local development consider using a service like MailHog or Mailtrap.
 - Ratings are aggregated server-side — review the rating calculation logic and database queries for performance when scaling.
 
-Contributing
-
-Contributions are welcome. Please open issues or pull requests. Follow existing code style and add tests for new features.
-
-License
-
-No license file is present in the repository. Add a LICENSE file if you plan to publish this project publicly.
-
----
-
-If you want, I can further tailor this README by reading project files (pom.xml or build.gradle and application.properties/yml) and adding exact build/run instructions and endpoint examples. Would you like me to inspect those files and update the README with concrete commands and configuration keys?
